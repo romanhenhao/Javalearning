@@ -1,9 +1,9 @@
 package com.company;
 
 public class Student {
-    public int age;
-    public int score;
-    public String name;
+    private int age;
+    private int score;
+    private String name;
 
     public void setAge(int age) {
         this.age = age;
@@ -34,6 +34,7 @@ public class Student {
         this(name,age);
         this.score = score;
     }
+
 
 
 
